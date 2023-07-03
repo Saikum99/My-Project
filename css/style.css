@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    background-color: pink;
+    color: black;
+}
+
+.bannerBGImage{
+    height: 100vh;
+    background: url("/images/Banner\ Image.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDecs{
+    font-size: 2rem;
+}
+.icon:hover{
+    border:3px solid rgb(16, 15, 15);
+    padding: 5px;
+    
+}
+.iconf:hover{
+    border:3px solid white;
+    padding: 8px;
+    
+}
+
+.body{
+    background-color: pink;
+}
+
+#about{
+    border-bottom: 2px;
+    border-bottom-color: aquamarine;
+    border-radius: 2px;
+}
+
+.card{
+    cursor: pointer
+}
+.card:hover{
+    background-color: rgb(136, 230, 186);
+    border: 4px solid red;
+}
+.bIcon{
+    width: 100%;
+    text-align: 40px;
+    font-size: 40px;
+}
+.img-fluid:hover{
+    border: 3px solid rgb(5, 225, 86);
+}
+.card-img-top{
+    height: fit-content;
+}
+.active{
+    background: rgb(246, 238, 12);
+    display: inline-block;
+    padding: 1px;
+}
