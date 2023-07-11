@@ -13,6 +13,7 @@
 .bannerBGImage{
     height: 100vh;
     background: url("images/Banner.jpg");
+    background: autocomplete
     background-size: cover;
     position: relative;
 }
